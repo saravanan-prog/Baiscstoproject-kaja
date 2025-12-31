@@ -1,10 +1,15 @@
-var a;
-console.log("a====>",a)
+
+/**
+ *  String   - "" or ''
+ *  Number   - 25 50.25
+ *  null     - <empty> - null
+ *  undefiend - nothing defined
+ *  Boolean   - true or false
+ */
 
 
-var b  = 500
-console.log("b====>",typeof b)
+ var a;  
+ console.log(a)  // undefiend
 
-
-var c = null;
-console.log("c=====>",c)
+ var b = null;
+ console.log(b) //null
