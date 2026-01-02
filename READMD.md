@@ -13,3 +13,16 @@
 => async & await
 => spread operator
 =>  Ternary opeartor
+
+
+Interview Questions
+====================
+Day1
+
+  1. Es6 Features
+  2. let var const
+  3. what is hoisting
+  4. useStict
+  5. null vs undefined
+  6. what is mean by closure
+  7. anayms function 
