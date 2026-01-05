@@ -7,8 +7,13 @@
        map
        filter
        reduce
+       some
+       every
 
 => callback
+      -> callback
+      -> first-callback
+      -> callback-hells
 => promise
 => async & await
 => spread operator

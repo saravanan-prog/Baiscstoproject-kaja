@@ -3,7 +3,7 @@
  *     map
  *     filter
  *     reduce
- *     some
+ *     some 
  *     every
  */
 
@@ -55,4 +55,43 @@ function findRepeatedElements(){
     })
     let finalResult = new Set(repeatedElements)
 }
-findRepeatedElements()
+//findRepeatedElements()
+
+
+
+
+function exampleReducemethodWorkout(){
+
+    let cartItemproducts = [1,2,3,4,5,6]
+    let finalPrice = cartItemproducts.reduce((acc,value,index,arr) => {
+       
+        return acc + value
+    },200)
+
+    console.log("final Price ====>" + finalPrice)
+
+}
+//exampleReducemethodWorkout()
+
+
+function someExample(){
+    let numbersList = [50,25,1,6,8,7,101]
+
+    let findAbove100 = numbersList.some((value)=> value >= 100 )
+
+    console.log("fineAbove100====>",findAbove100)
+}
+
+//someExample()
+
+
+
+function everyExample(){
+    let numbersList = [50,25,1,6,8,7,101]
+
+    let findAbove100 = numbersList.every((value)=> value >= 100 )
+
+    console.log("fineAbove100====>",findAbove100)
+}
+
+everyExample()
