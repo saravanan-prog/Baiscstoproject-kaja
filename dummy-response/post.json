@@ -1,0 +1,27 @@
+[
+    {   
+        "postID" :1,
+        "userID": 1,
+        "postData":"1-1-2025",
+        "post":{
+            "title":"Thaliva movie",
+            "description" :"vijay update this movie last "
+        },
+
+        "postImage": "url"
+    },
+    {   
+        "postID" :2,
+        "userID": 2,
+        "postData":"1-1-2025",
+        "postTitle":"Vijay Arasial Entry",
+        "postImage": "url"
+    },
+    {   
+        "postID" :3,
+        "userID": 1,
+        "postData":"4-1-2026",
+        "postTitle":"Janayagam",
+        "postImage": "url"
+    }
+]

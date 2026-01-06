@@ -5,9 +5,9 @@ function addition(callback){
     callback(a+b)
 }
 
-addition(function(result){
-    console.log("addition result ====>",result)
-})
+// addition(function(result){
+//     console.log("addition result ====>",result)
+// })
 
 
 
@@ -21,6 +21,23 @@ function sumofNumbers(firstNumber,secondNumber,callback){
     
 }
 
-sumofNumbers(200,300,function(result){
-    console.log("sum of numbers result ===>",result)
+// sumofNumbers(200,300,function(result){
+//     console.log("sum of numbers result ===>",result)
+// })
+
+
+
+
+function getProductList(callback){
+
+    setTimeout(()=>{
+         callback(null,["apple","orange","grapes"])
+    })
+   
+}
+
+ getProductList((error,data)=>{
+    console.log("data::::",data)
+    return data
 })
+
