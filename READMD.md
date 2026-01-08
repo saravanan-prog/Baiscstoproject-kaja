@@ -30,4 +30,8 @@ Day1
   4. useStict
   5. null vs undefined
   6. what is mean by closure
-  7. anayms function 
+  7. high order function
+  8. callback
+  9. what is first callback?
+  10. what is callback-hell?
+  11. how to avoid callbac-hells? -> promise / async await
