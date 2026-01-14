@@ -14,7 +14,7 @@ function addition(firstNumber,secondNumber,callback){
 
 addition(200,200,function(error,result){
     if(error)
-        console.log("error====>",error)
+        throw error
     else 
         console.log("result=====>",result)
 })
