@@ -85,4 +85,10 @@ promise summary:
 
    19. "hello world" vowels count.
 
-   20. Anagram program (or) palindrome
+   20. Anagram program (or) palindrome.
+
+   21. find zeroth nearest number [8,2,6,-2-1,0,1,6]
+
+   22. find common value for all array [1,2,3,4,5] [2,3,4,5,6,7] [8,9,1,2,3]
+
+   23. [5,3,2,1,2,5,6] find add 10 give me a sub array
